@@ -110,6 +110,23 @@
             padding-bottom: 100px;
         }
 }
+
+#tips{
+    text-align: center;
+    padding-left: 170px;
+    margin-top: 100px;
+    margin-bottom: 110px;
+        i{
+            font-size: 30px;
+            text-align: center;
+            padding-bottom: 50px;
+        }
+        h3{
+            font: $titulo-mediano;
+            font-size: 28px;
+            text-align: center;
+        }
+}
 #portfolio{
     padding-left: 170px;
     margin-top: -100px;
