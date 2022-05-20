@@ -89,7 +89,43 @@
                 }
     }
 }
+#estudiocontacto{
+        p{
+            font: $texto-grande;
+            font-size: 18px;
+            color: #212529;
+            font-weight: 300;
+            padding-bottom: 70px;
+        }
+        h2{
+            font: $titulo-mediano;
+            color: $titulo-color;
+            font-weight: 300;
+            letter-spacing: 1px;
+            padding-bottom: 30px;
+        }
+}
 
+.formulario{
+    padding-left: 190px;
+    width: 800px;
+        input{
+            background-color: #f0f0f0;
+            border: 0px;
+            border-radius: 0px;
+            border-bottom: solid 1px #212529;
+            margin-bottom: 45px;
+            font-family: 'Maitree', serif;
+        }
+        button{
+            background-color: #212529;
+            color: white;
+            border: 0px;
+            padding: 12px 35px 12px 35px;
+            font: $titulo-mediano;
+            font-size: 18px;
+        }
+}
 #estudioservicios{
     width: 90%;
     padding-left: 190px;
@@ -300,6 +336,9 @@
             i{
                 color: $color-rrss-clara;
             }
+}
+#maps{
+    margin-bottom: 100px;
 }
 
 /* Resolucion 490px */
