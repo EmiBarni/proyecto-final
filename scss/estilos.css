@@ -9,7 +9,8 @@
 * {
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .navbar-brand img {
@@ -18,21 +19,25 @@
 
 .navbar {
   padding: 35px;
-  font-family: "Maitree", serif;
+  font-family: 'Maitree', serif;
   font-size: 14px;
   font-weight: 400;
 }
+
 .navbar .navbar-nav {
   margin-left: 60px;
 }
+
 .navbar .navbar-nav .nav-item {
   padding-right: 20px;
 }
+
 .navbar .rrss {
   font-size: 17px;
-  color: rgb(112, 112, 112);
+  color: #707070;
   letter-spacing: 8px;
 }
+
 .navbar .rrss i {
   color: black;
 }
@@ -40,20 +45,23 @@
 #introslide {
   padding-left: 170px;
 }
+
 #introslide h1 {
   font: normal 74px/1 "Maitree", serif;
-  color: rgb(0, 0, 0);
+  color: black;
   font-weight: 200;
   padding: 100px 100px 30px 0;
   letter-spacing: 2px;
 }
+
 #introslide p {
   width: 40%;
   font: 16px/1.7 "Maitree", serif;
-  color: rgb(112, 112, 112);
+  color: #707070;
   font-weight: 300;
   padding-left: 0;
 }
+
 #introslide #margenport {
   margin-bottom: 200px;
 }
@@ -63,26 +71,31 @@
   margin-top: 100px;
   padding-bottom: 100px;
 }
+
 .slide .carrusel {
   padding-left: 170px;
 }
+
 .slide .carrusel .carousel-inner {
   width: 100%;
   height: 670px;
 }
+
 .slide .estudio {
   width: 60%;
   padding-left: 190px;
 }
+
 .slide .estudio p {
   font: 25px/1.8 "Maitree", serif;
   color: #212529;
   font-weight: 300;
   padding-bottom: 70px;
 }
+
 .slide .estudio h2 {
   font: 40px/1 "Maitree", serif;
-  color: rgb(0, 0, 0);
+  color: black;
   font-weight: 300;
   letter-spacing: 1px;
   padding-bottom: 100px;
@@ -92,6 +105,7 @@
   width: 90%;
   padding-left: 190px;
 }
+
 #estudioservicios p {
   font: 25px/1.8 "Maitree", serif;
   color: #212529;
@@ -100,10 +114,11 @@
   padding-left: 200px;
   width: 70%;
 }
+
 #estudioservicios h2 {
   font: 40px/1 "Maitree", serif;
   font-size: 45px;
-  color: rgb(0, 0, 0);
+  color: black;
   font-weight: 300;
   letter-spacing: 1px;
   padding-bottom: 100px;
@@ -113,18 +128,22 @@
   padding-left: 170px;
   margin-top: -100px;
 }
+
 #portfolio .trabajos {
   margin-bottom: 80px;
   padding: 0;
 }
+
 #portfolio .trabajos p {
   font: 14px/1 "Maitree", serif;
 }
+
 #portfolio .trabajos h3 {
   font: 26px/1 "Maitree", serif;
-  color: rgb(0, 0, 0);
+  color: black;
   font-weight: 300;
 }
+
 #portfolio .trabajos .img#img1 {
   height: 400px;
   background-image: url(../img/webtquilla1-1.jpg);
@@ -132,6 +151,7 @@
   background-position: center;
   margin-bottom: 25px;
 }
+
 #portfolio .trabajos .img#img2 {
   height: 400px;
   background-image: url(../img/1.jpg);
@@ -139,6 +159,7 @@
   background-position: center;
   margin-bottom: 25px;
 }
+
 #portfolio .trabajos .img#img3 {
   height: 400px;
   background-image: url(../img/Abisal.png);
@@ -146,6 +167,7 @@
   background-position: center;
   margin-bottom: 25px;
 }
+
 #portfolio .trabajos .img#img4 {
   height: 400px;
   background-image: url(../img/Iphone_creedence.jpg);
@@ -153,6 +175,7 @@
   background-position: center;
   margin-bottom: 25px;
 }
+
 #portfolio .trabajos .img#img5 {
   height: 400px;
   background-image: url(../img/IRA.png);
@@ -160,6 +183,7 @@
   background-position: center;
   margin-bottom: 25px;
 }
+
 #portfolio .trabajos .img#img6 {
   height: 400px;
   background-image: url(../img/Noble-alerce-2.png);
@@ -172,11 +196,13 @@
   background-color: #979A9D;
   padding: 100px 0 200px 190px;
 }
+
 .introservice h2 {
   font: 40px/1 "Maitree", serif;
   color: white;
   font-weight: 300;
 }
+
 .introservice p {
   font: 16px/1.7 "Maitree", serif;
   color: white;
@@ -193,14 +219,16 @@
 .servicios {
   padding: 0;
 }
+
 .servicios h3 {
   font: 26px/1 "Maitree", serif;
   font-weight: 300;
   padding-bottom: 25px;
 }
+
 .servicios p {
   font: 16px/1.7 "Maitree", serif;
-  color: rgb(112, 112, 112);
+  color: #707070;
   width: 80%;
 }
 
@@ -241,21 +269,31 @@
   background-color: #f0f0f0;
   padding: 100px;
 }
+
 .clientes #titulologo h2 {
   font: 40px/1 "Maitree", serif;
-  color: rgb(112, 112, 112);
+  color: #707070;
   font-weight: 300;
 }
+
 .clientes #titulologo .logos {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
+
 .clientes #titulologo .logos .marcas {
   padding-right: 80px;
   padding-bottom: 40px;
   padding-top: 80px;
 }
+
 .clientes #titulologo .logos .marcas img {
   width: 120px;
 }
@@ -265,11 +303,13 @@
   background-color: #555657;
   padding: 100px;
 }
+
 .footer h3 {
   font: 40px/1 "Maitree", serif;
   color: white;
   font-weight: 300;
 }
+
 .footer p {
   font: 16px/1.7 "Maitree", serif;
   color: white;
@@ -277,6 +317,7 @@
   width: 60%;
   padding-top: 30px;
 }
+
 .footer ul {
   color: white;
   font: 16px/1.7 "Maitree", serif;
@@ -285,21 +326,26 @@
 .all {
   background-color: #3f4041;
   padding: 45px 100px 25px 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
+
 .all p {
   font: 16px/1.7 "Maitree", serif;
   color: white;
   font-weight: 300;
 }
+
 .all .redessociales {
   font-size: 17px;
-  color: rgb(112, 112, 112);
+  color: #707070;
   letter-spacing: 8px;
   text-align: right;
 }
+
 .all i {
-  color: rgb(255, 255, 255);
+  color: white;
 }
 
 /* Resolucion 490px */
@@ -307,16 +353,15 @@
   * {
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
   }
-
   .navbar-brand img {
     width: 80px;
   }
-
   .navbar {
     padding: 20px;
-    font-family: "Maitree", serif;
+    font-family: 'Maitree', serif;
     font-size: 14px;
     font-weight: 400;
   }
@@ -329,20 +374,19 @@
   .navbar .rrss {
     display: none;
     font-size: 17px;
-    color: rgb(112, 112, 112);
+    color: #707070;
     letter-spacing: 8px;
   }
   .navbar .rrss i {
     color: black;
   }
-
   #introslide {
     padding-left: 35px;
   }
   #introslide h1 {
     font: normal 74px/1 "Maitree", serif;
     font-size: 38px;
-    color: rgb(0, 0, 0);
+    color: black;
     font-weight: 200;
     padding: 50px 100px 30px 0;
     letter-spacing: 1px;
@@ -351,14 +395,13 @@
     width: 70%;
     font: 16px/1.7 "Maitree", serif;
     font-size: 15px;
-    color: rgb(112, 112, 112);
+    color: #707070;
     font-weight: 300;
     padding-left: 0;
   }
   #introslide #margenport {
     margin-bottom: 400px;
   }
-
   .slide {
     background-color: #f0f0f0;
     margin-top: 100px;
@@ -386,12 +429,11 @@
   }
   .slide .estudio h2 {
     font: 40px/1 "Maitree", serif;
-    color: rgb(0, 0, 0);
+    color: black;
     font-weight: 300;
     letter-spacing: 1px;
     padding-bottom: 50px;
   }
-
   #portfolio {
     padding: 35px;
     margin-top: -100px;
@@ -405,7 +447,7 @@
   }
   #portfolio .trabajos h3 {
     font: 26px/1 "Maitree", serif;
-    color: rgb(0, 0, 0);
+    color: black;
     font-weight: 300;
   }
   #portfolio .trabajos .img#img1 {
@@ -450,7 +492,6 @@
     background-position: center;
     margin-bottom: 25px;
   }
-
   .introservice {
     background-color: #979A9D;
     margin: 0px;
@@ -467,12 +508,10 @@
     width: 70%;
     padding-top: 25px;
   }
-
   #intro {
     padding-left: 0px;
     padding-bottom: 150px;
   }
-
   .servicios {
     padding: 35px;
   }
@@ -483,42 +522,36 @@
   }
   .servicios p {
     font: 16px/1.7 "Maitree", serif;
-    color: rgb(112, 112, 112);
+    color: #707070;
     width: 80%;
   }
-
   .diseño-serv,
-.landing-serv,
-.packaging-serv,
-.web-serv {
+  .landing-serv,
+  .packaging-serv,
+  .web-serv {
     height: 400px;
     margin-bottom: 25px;
   }
-
   .diseño-serv {
     background-image: url("../img/servicios/diseño.jpg");
     background-size: cover;
     background-position: center;
   }
-
   .landing-serv {
     background-image: url("../img/servicios/landing.jpg");
     background-size: cover;
     background-position: center;
   }
-
   .packaging-serv {
     background-image: url("../img/servicios/packaging.jpg");
     background-size: cover;
     background-position: center;
   }
-
   .web-serv {
     background-image: url("../img/servicios/web.jpg");
     background-size: cover;
     background-position: center;
   }
-
   .clientes #titulologo {
     margin-left: 0px;
     background-color: #f0f0f0;
@@ -526,13 +559,19 @@
   }
   .clientes #titulologo h2 {
     font: 40px/1 "Maitree", serif;
-    color: rgb(112, 112, 112);
+    color: #707070;
     font-weight: 300;
   }
   .clientes #titulologo .logos {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
   .clientes #titulologo .logos .marcas {
     padding-right: 20px;
@@ -542,7 +581,6 @@
   .clientes #titulologo .logos .marcas img {
     width: 65px;
   }
-
   .footer {
     margin-left: 0px;
     background-color: #555657;
@@ -565,10 +603,11 @@
     color: white;
     font: 16px/1.7 "Maitree", serif;
   }
-
   .all {
     background-color: #3f4041;
     padding: 45px 0px 25px 25px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
   }
   .all p {
@@ -580,29 +619,29 @@
   }
   .all .redessociales {
     font-size: 12px;
-    color: rgb(112, 112, 112);
+    color: #707070;
     letter-spacing: 3px;
     text-align: right;
   }
   .all i {
-    color: rgb(255, 255, 255);
+    color: white;
   }
 }
+
 /* Resolucion 768px */
 @media (max-width: 768px) {
   * {
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
   }
-
   .navbar-brand img {
     width: 80px;
   }
-
   .navbar {
     padding: 20px;
-    font-family: "Maitree", serif;
+    font-family: 'Maitree', serif;
     font-size: 12px;
     font-weight: 400;
   }
@@ -615,20 +654,19 @@
   .navbar .rrss {
     display: none;
     font-size: 17px;
-    color: rgb(112, 112, 112);
+    color: #707070;
     letter-spacing: 8px;
   }
   .navbar .rrss i {
     color: black;
   }
-
   #introslide {
     padding-left: 35px;
   }
   #introslide h1 {
     font: normal 74px/1 "Maitree", serif;
     font-size: 38px;
-    color: rgb(0, 0, 0);
+    color: black;
     font-weight: 200;
     padding: 50px 100px 30px 0;
     letter-spacing: 1px;
@@ -637,14 +675,13 @@
     width: 70%;
     font: 16px/1.7 "Maitree", serif;
     font-size: 15px;
-    color: rgb(112, 112, 112);
+    color: #707070;
     font-weight: 300;
     padding-left: 0;
   }
   #introslide #margenport {
     margin-bottom: 200px;
   }
-
   .slide {
     background-color: #f0f0f0;
     margin-top: 100px;
@@ -672,12 +709,11 @@
   }
   .slide .estudio h2 {
     font: 40px/1 "Maitree", serif;
-    color: rgb(0, 0, 0);
+    color: black;
     font-weight: 300;
     letter-spacing: 1px;
     padding-bottom: 50px;
   }
-
   #portfolio {
     padding: 35px;
     margin-top: -100px;
@@ -692,7 +728,7 @@
   #portfolio .trabajos h3 {
     font: 26px/1 "Maitree", serif;
     font-size: 20px;
-    color: rgb(0, 0, 0);
+    color: black;
     font-weight: 300;
   }
   #portfolio .trabajos .img#img1 {
@@ -737,7 +773,6 @@
     background-position: center;
     margin-bottom: 25px;
   }
-
   .introservice {
     background-color: #979A9D;
     margin: 0px;
@@ -754,12 +789,10 @@
     width: 70%;
     padding-top: 25px;
   }
-
   #intro {
     padding-left: 0px;
     padding-bottom: 150px;
   }
-
   .servicios {
     padding: 0px;
   }
@@ -771,7 +804,7 @@
   }
   .servicios p {
     font: 16px/1.7 "Maitree", serif;
-    color: rgb(112, 112, 112);
+    color: #707070;
     width: 80%;
     padding-left: 35px;
   }
@@ -779,38 +812,32 @@
     padding-left: 35px;
     padding-bottom: 45px;
   }
-
   .diseño-serv,
-.landing-serv,
-.packaging-serv,
-.web-serv {
+  .landing-serv,
+  .packaging-serv,
+  .web-serv {
     margin-bottom: 25px;
   }
-
   .diseño-serv {
     background-image: url("../img/servicios/diseño.jpg");
     background-size: cover;
     background-position: center;
   }
-
   .landing-serv {
     background-image: url("../img/servicios/landing.jpg");
     background-size: cover;
     background-position: center;
   }
-
   .packaging-serv {
     background-image: url("../img/servicios/packaging.jpg");
     background-size: cover;
     background-position: center;
   }
-
   .web-serv {
     background-image: url("../img/servicios/web.jpg");
     background-size: cover;
     background-position: center;
   }
-
   .clientes #titulologo {
     margin-left: 0px;
     background-color: #f0f0f0;
@@ -818,13 +845,19 @@
   }
   .clientes #titulologo h2 {
     font: 40px/1 "Maitree", serif;
-    color: rgb(112, 112, 112);
+    color: #707070;
     font-weight: 300;
   }
   .clientes #titulologo .logos {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
   .clientes #titulologo .logos .marcas {
     padding-right: 30px;
@@ -834,7 +867,6 @@
   .clientes #titulologo .logos .marcas img {
     width: 85px;
   }
-
   .footer {
     margin-left: 0px;
     background-color: #555657;
@@ -857,10 +889,11 @@
     color: white;
     font: 16px/1.7 "Maitree", serif;
   }
-
   .all {
     background-color: #3f4041;
     padding: 45px 0px 25px 25px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
   }
   .all p {
@@ -872,29 +905,29 @@
   }
   .all .redessociales {
     font-size: 12px;
-    color: rgb(112, 112, 112);
+    color: #707070;
     letter-spacing: 3px;
     text-align: right;
   }
   .all i {
-    color: rgb(255, 255, 255);
+    color: white;
   }
 }
+
 /* Resolucion 1024px */
 @media (max-width: 1024px) {
   * {
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
   }
-
   .navbar-brand img {
     width: 120px;
   }
-
   .navbar {
     padding: 35px;
-    font-family: "Maitree", serif;
+    font-family: 'Maitree', serif;
     font-size: 14px;
     font-weight: 400;
   }
@@ -906,19 +939,18 @@
   }
   .navbar .rrss {
     font-size: 15px;
-    color: rgb(112, 112, 112);
+    color: #707070;
     letter-spacing: 4px;
   }
   .navbar .rrss i {
     color: black;
   }
-
   #introslide {
     padding-left: 100px;
   }
   #introslide h1 {
     font: normal 74px/1 "Maitree", serif;
-    color: rgb(0, 0, 0);
+    color: black;
     font-weight: 200;
     padding: 100px 60px 30px 0;
     letter-spacing: 2px;
@@ -926,21 +958,20 @@
   #introslide p {
     width: 80%;
     font: 16px/1.7 "Maitree", serif;
-    color: rgb(112, 112, 112);
+    color: #707070;
     font-weight: 300;
     padding-left: 0;
   }
   #introslide #margenport {
     margin-bottom: 180px;
   }
-
   .slide {
     background-color: #f0f0f0;
     margin-top: 100px;
     padding-bottom: 100px;
   }
   .slide .carrusel {
-    padding-left: 0px;
+    padding-left: 00px;
   }
   .slide .carrusel .carousel-inner {
     width: 100%;
@@ -959,12 +990,11 @@
   }
   .slide .estudio h2 {
     font: 40px/1 "Maitree", serif;
-    color: rgb(0, 0, 0);
+    color: black;
     font-weight: 300;
     letter-spacing: 1px;
     padding-bottom: 100px;
   }
-
   #portfolio {
     padding-left: 100px;
     margin-top: -100px;
@@ -978,7 +1008,7 @@
   }
   #portfolio .trabajos h3 {
     font: 26px/1 "Maitree", serif;
-    color: rgb(0, 0, 0);
+    color: black;
     font-weight: 300;
   }
   #portfolio .trabajos .img#img1 {
@@ -1023,7 +1053,6 @@
     background-position: center;
     margin-bottom: 25px;
   }
-
   .introservice {
     background-color: #979A9D;
     padding: 100px 0 200px 100px;
@@ -1039,13 +1068,11 @@
     width: 80%;
     padding-top: 25px;
   }
-
   #intro {
     margin-top: -90px;
     padding-left: 100px;
     padding-bottom: 150px;
   }
-
   .servicios {
     padding: 0;
     margin-bottom: 45px;
@@ -1057,42 +1084,36 @@
   }
   .servicios p {
     font: 16px/1.7 "Maitree", serif;
-    color: rgb(112, 112, 112);
+    color: #707070;
     width: 80%;
   }
-
   .diseño-serv,
-.landing-serv,
-.packaging-serv,
-.web-serv {
+  .landing-serv,
+  .packaging-serv,
+  .web-serv {
     height: 400px;
     margin-bottom: 25px;
   }
-
   .diseño-serv {
     background-image: url("../img/servicios/diseño.jpg");
     background-size: cover;
     background-position: center;
   }
-
   .landing-serv {
     background-image: url("../img/servicios/landing.jpg");
     background-size: cover;
     background-position: center;
   }
-
   .packaging-serv {
     background-image: url("../img/servicios/packaging.jpg");
     background-size: cover;
     background-position: center;
   }
-
   .web-serv {
     background-image: url("../img/servicios/web.jpg");
     background-size: cover;
     background-position: center;
   }
-
   .clientes #titulologo {
     margin-left: 100px;
     background-color: #f0f0f0;
@@ -1100,13 +1121,19 @@
   }
   .clientes #titulologo h2 {
     font: 40px/1 "Maitree", serif;
-    color: rgb(112, 112, 112);
+    color: #707070;
     font-weight: 300;
   }
   .clientes #titulologo .logos {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
   .clientes #titulologo .logos .marcas {
     padding-right: 50px;
@@ -1116,7 +1143,6 @@
   .clientes #titulologo .logos .marcas img {
     width: 120px;
   }
-
   .footer {
     margin-left: 100px;
     background-color: #555657;
@@ -1138,10 +1164,11 @@
     color: white;
     font: 16px/1.7 "Maitree", serif;
   }
-
   .all {
     background-color: #3f4041;
     padding: 45px 100px 25px 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
   }
   .all p {
@@ -1151,13 +1178,12 @@
   }
   .all .redessociales {
     font-size: 17px;
-    color: rgb(112, 112, 112);
+    color: #707070;
     letter-spacing: 8px;
     text-align: right;
   }
   .all i {
-    color: rgb(255, 255, 255);
+    color: white;
   }
 }
-
 /*# sourceMappingURL=estilos.css.map */

@@ -56,6 +56,9 @@
             font-weight: 300;
             padding-left: 0;
         }
+        #margenport{
+            margin-bottom: 200px;
+        }
 }
 .slide{
     background-color: $fondo-gris;
@@ -85,6 +88,27 @@
                     padding-bottom: 100px;
                 }
     }
+}
+
+#estudioservicios{
+    width: 90%;
+    padding-left: 190px;
+        p{
+            font: $texto-grande;
+            color: #212529;
+            font-weight: 300;
+            padding-bottom: 70px;
+            padding-left: 200px;
+            width: 70%;
+        }
+        h2{
+            font: $titulo-mediano;
+            font-size: 45px;
+            color: $titulo-color;
+            font-weight: 300;
+            letter-spacing: 1px;
+            padding-bottom: 100px;
+        }
 }
 #portfolio{
     padding-left: 170px;
@@ -260,3 +284,808 @@
                 color: $color-rrss-clara;
             }
 }
+
+/* Resolucion 490px */
+
+@media (max-width: 490px){
+    *{
+        padding: 0;
+        margin:0;
+        box-sizing: border-box;
+    }
+    
+    .navbar-brand{
+            img{
+                width: 80px;
+            }
+    }
+    .navbar{
+        padding: 20px;
+        font-family: 'Maitree', serif;
+        font-size: 14px;
+        font-weight: 400;
+        .navbar-nav{
+            margin-left: 20px;
+                .nav-item{
+                    padding-right: 20px;
+                }
+        }
+        .rrss{
+            display: none;
+            font-size: 17px;
+            color: $texto-color;
+            letter-spacing: 8px;
+                i{
+                    color: $color-rrss;
+                }
+            }
+    }
+    
+    #introslide{
+        padding-left: 35px;
+            h1{
+                font: $titulo-grande;
+                font-size: 38px;
+                color: $titulo-color;
+                font-weight: 200;
+                padding: 50px 100px 30px 0;
+                letter-spacing: 1px;
+            }
+            p{
+                width: 70%;
+                font: $texto-normal;
+                font-size: 15px;
+                color: $texto-color;
+                font-weight: 300;
+                padding-left: 0;
+            }
+            #margenport{
+                margin-bottom: 400px;
+            }
+    }
+    .slide{
+        background-color: $fondo-gris;
+        margin-top: 100px;
+        padding-bottom: 100px;
+            .carrusel{
+                padding-left: 0px;
+                    .carousel-inner{
+                        width: 100%;
+                        height: 350px;
+                        background-position: center;
+                        background-size: contain;
+                    }
+            }
+            .estudio{
+                width: 70%;
+                padding-left: 30px;
+                    p{
+                        font: $texto-grande;
+                        font-size: 20px;
+                        color: #212529;
+                        font-weight: 300;
+                        padding-bottom: 70px;
+                    }
+                    h2{
+                        font: $titulo-mediano;
+                        color: $titulo-color;
+                        font-weight: 300;
+                        letter-spacing: 1px;
+                        padding-bottom: 50px;
+                    }
+        }
+    }
+    #portfolio{
+        padding: 35px;
+        margin-top: -100px;
+        .trabajos{
+            margin-bottom: 80px;
+            padding: 0;
+            p{
+                font:$detalle-portfolio;
+            }
+            h3{
+                font:$titulo-detalle;
+                color: $titulo-color;
+                font-weight: 300;
+            }
+            .img#img1{
+                height: 400px;
+                background-image: url(../img/webtquilla1-1.jpg);
+                background-size: cover;
+                background-position: center;
+                margin-bottom: 25px;
+            }
+            .img#img2{
+                height: 400px;
+                background-image: url(../img/1.jpg);
+                background-size: cover;
+                background-position: center;
+                margin-bottom: 25px;
+            }
+            .img#img3{
+                height: 400px;
+                background-image: url(../img/Abisal.png);
+                background-size: cover;
+                background-position: center;
+                margin-bottom: 25px;
+            }
+            .img#img4{
+                height: 400px;
+                background-image: url(../img/Iphone_creedence.jpg);
+                background-size: cover;
+                background-position: center;
+                margin-bottom: 25px;
+            }
+            .img#img5{
+                height: 400px;
+                background-image: url(../img/IRA.png);
+                background-size: cover;
+                background-position: center;
+                margin-bottom: 25px;
+            }
+            .img#img6{
+                height: 400px;
+                background-image: url(../img/Noble-alerce-2.png);
+                background-size: cover;
+                background-position: center;
+                margin-bottom: 25px;
+            }
+        }
+    }
+    .introservice{
+        background-color: $fondo-claro;
+        margin: 0px;
+        padding: 100px 0 200px 35px;
+            h2{
+                font: $titulo-mediano;
+                color: $titulo-blanco;
+                font-weight: 300;
+            }
+            p{
+                font: $texto-normal;
+                color: $titulo-blanco;
+                width: 70%;
+                padding-top: 25px;
+            }
+    }
+    #intro{
+        padding-left: 0px;
+        padding-bottom: 150px;
+    }
+    .servicios{
+        padding: 35px;
+        h3{
+            font: $titulo-detalle;
+            font-weight: 300;
+            padding-bottom: 25px;
+        }
+        p{
+            font: $texto-normal;
+            color: $texto-color;
+            width: 80%;
+        }
+    }
+    
+    .diseño-serv,
+    .landing-serv,
+    .packaging-serv,
+    .web-serv {
+        height: 400px;
+        margin-bottom: 25px;
+    }
+    
+    @each $servicios in diseño , landing , packaging , web {
+        .#{$servicios}-serv {
+            background-image: url("../img/servicios/#{$servicios}.jpg");
+            background-size: cover;
+            background-position: center;
+        }
+    }
+    .clientes{
+            #titulologo{
+                margin-left: 0px;
+                background-color: $fondo-gris;
+                padding: 80px 35px 80px 35px;
+                    h2{
+                        font: $titulo-mediano;
+                        color: $texto-color;
+                        font-weight: 300;
+                    }
+                    .logos{
+                        display: flex;
+                        flex-direction: row;
+                        flex-wrap: wrap;
+                            .marcas{
+                                padding-right: 20px;
+                                padding-bottom: 20px;
+                                padding-top: 80px;
+                                    img{
+                                        width: 65px;
+                                    }
+                            }
+                    }
+            }
+    }
+    
+    .footer{
+        margin-left: 0px;
+        background-color: $fondo-oscuro;
+        padding: 80px 35px 80px 35px;
+            h3{
+                font: $titulo-mediano;
+                color: $titulo-blanco;
+                font-weight: 300;
+            }
+            p{
+                font: $texto-normal;
+                font-size: 15px;
+                color: $titulo-blanco;
+                font-weight: 300;
+                width:80%;
+                padding-top: 30px;
+            }
+            ul{
+                color: $titulo-blanco;
+                font: $texto-normal;
+            }
+    }
+    .all{
+        background-color: $fondo-footer;
+        padding: 45px 0px 25px 25px;
+        display: flex;
+            p{
+                font: $texto-normal;
+                font-size: 12px;
+                color: $titulo-blanco;
+                font-weight: 300;
+                text-align: left;
+            }
+            .redessociales{
+                font-size: 12px;
+                color: $texto-color;
+                letter-spacing: 3px;
+                text-align: right;
+            }
+                i{
+                    color: $color-rrss-clara;
+                }
+    }
+}
+
+/* Resolucion 768px */
+
+@media (max-width: 768px){
+    *{
+        padding: 0;
+        margin:0;
+        box-sizing: border-box;
+    }
+    
+    .navbar-brand{
+            img{
+                width: 80px;
+            }
+    }
+    .navbar{
+        padding: 20px;
+        font-family: 'Maitree', serif;
+        font-size: 12px;
+        font-weight: 400;
+        .navbar-nav{
+            margin-left: 5px;
+                .nav-item{
+                    padding-right: 10px;
+                }
+        }
+        .rrss{
+            display: none;
+            font-size: 17px;
+            color: $texto-color;
+            letter-spacing: 8px;
+                i{
+                    color: $color-rrss;
+                }
+            }
+    }
+    
+    #introslide{
+        padding-left: 35px;
+            h1{
+                font: $titulo-grande;
+                font-size: 38px;
+                color: $titulo-color;
+                font-weight: 200;
+                padding: 50px 100px 30px 0;
+                letter-spacing: 1px;
+            }
+            p{
+                width: 70%;
+                font: $texto-normal;
+                font-size: 15px;
+                color: $texto-color;
+                font-weight: 300;
+                padding-left: 0;
+            }
+            #margenport{
+                margin-bottom: 200px;
+            }
+    }
+    .slide{
+        background-color: $fondo-gris;
+        margin-top: 100px;
+        padding-bottom: 100px;
+            .carrusel{
+                padding-left: 0px;
+                    .carousel-inner{
+                        width: 100%;
+                        height: 350px;
+                        background-position: center;
+                        background-size: contain;
+                    }
+            }
+            .estudio{
+                width: 70%;
+                padding-left: 30px;
+                    p{
+                        font: $texto-grande;
+                        font-size: 20px;
+                        color: #212529;
+                        font-weight: 300;
+                        padding-bottom: 70px;
+                    }
+                    h2{
+                        font: $titulo-mediano;
+                        color: $titulo-color;
+                        font-weight: 300;
+                        letter-spacing: 1px;
+                        padding-bottom: 50px;
+                    }
+        }
+    }
+    #portfolio{
+        padding: 35px;
+        margin-top: -100px;
+        .trabajos{
+            margin-bottom: 80px;
+            padding: 0;
+            p{
+                font:$detalle-portfolio;
+            }
+            h3{
+                font:$titulo-detalle;
+                font-size: 20px;
+                color: $titulo-color;
+                font-weight: 300;
+            }
+            .img#img1{
+                height: 400px;
+                background-image: url(../img/webtquilla1-1.jpg);
+                background-size: cover;
+                background-position: center;
+                margin-bottom: 25px;
+            }
+            .img#img2{
+                height: 400px;
+                background-image: url(../img/1.jpg);
+                background-size: cover;
+                background-position: center;
+                margin-bottom: 25px;
+            }
+            .img#img3{
+                height: 400px;
+                background-image: url(../img/Abisal.png);
+                background-size: cover;
+                background-position: center;
+                margin-bottom: 25px;
+            }
+            .img#img4{
+                height: 400px;
+                background-image: url(../img/Iphone_creedence.jpg);
+                background-size: cover;
+                background-position: center;
+                margin-bottom: 25px;
+            }
+            .img#img5{
+                height: 400px;
+                background-image: url(../img/IRA.png);
+                background-size: cover;
+                background-position: center;
+                margin-bottom: 25px;
+            }
+            .img#img6{
+                height: 400px;
+                background-image: url(../img/Noble-alerce-2.png);
+                background-size: cover;
+                background-position: center;
+                margin-bottom: 25px;
+            }
+        }
+    }
+    .introservice{
+        background-color: $fondo-claro;
+        margin: 0px;
+        padding: 100px 0 200px 35px;
+            h2{
+                font: $titulo-mediano;
+                color: $titulo-blanco;
+                font-weight: 300;
+            }
+            p{
+                font: $texto-normal;
+                color: $titulo-blanco;
+                width: 70%;
+                padding-top: 25px;
+            }
+    }
+    #intro{
+        padding-left: 0px;
+        padding-bottom: 150px;
+    }
+    .servicios{
+        padding: 0px;
+        h3{
+            font: $titulo-detalle;
+            font-weight: 300;
+            padding-bottom: 25px;
+            padding-left: 35px;
+        }
+        p{
+            font: $texto-normal;
+            color: $texto-color;
+            width: 80%;
+            padding-left: 35px;
+        }
+        i{
+            padding-left: 35px;
+            padding-bottom: 45px;
+        }
+    }
+    
+    .diseño-serv,
+    .landing-serv,
+    .packaging-serv,
+    .web-serv {
+        margin-bottom: 25px;
+    }
+    
+    @each $servicios in diseño , landing , packaging , web {
+        .#{$servicios}-serv {
+            background-image: url("../img/servicios/#{$servicios}.jpg");
+            background-size: cover;
+            background-position: center;
+        }
+    }
+    .clientes{
+            #titulologo{
+                margin-left: 0px;
+                background-color: $fondo-gris;
+                padding: 80px 35px 80px 35px;
+                    h2{
+                        font: $titulo-mediano;
+                        color: $texto-color;
+                        font-weight: 300;
+                    }
+                    .logos{
+                        display: flex;
+                        flex-direction: row;
+                        flex-wrap: wrap;
+                            .marcas{
+                                padding-right: 30px;
+                                padding-bottom: 20px;
+                                padding-top: 80px;
+                                    img{
+                                        width: 85px;
+                                    }
+                            }
+                    }
+            }
+    }
+    
+    .footer{
+        margin-left: 0px;
+        background-color: $fondo-oscuro;
+        padding: 80px 35px 80px 35px;
+            h3{
+                font: $titulo-mediano;
+                color: $titulo-blanco;
+                font-weight: 300;
+            }
+            p{
+                font: $texto-normal;
+                font-size: 15px;
+                color: $titulo-blanco;
+                font-weight: 300;
+                width:80%;
+                padding-top: 30px;
+            }
+            ul{
+                color: $titulo-blanco;
+                font: $texto-normal;
+            }
+    }
+    .all{
+        background-color: $fondo-footer;
+        padding: 45px 0px 25px 25px;
+        display: flex;
+            p{
+                font: $texto-normal;
+                font-size: 12px;
+                color: $titulo-blanco;
+                font-weight: 300;
+                text-align: left;
+            }
+            .redessociales{
+                font-size: 12px;
+                color: $texto-color;
+                letter-spacing: 3px;
+                text-align: right;
+            }
+                i{
+                    color: $color-rrss-clara;
+                }
+    }
+}
+
+/* Resolucion 1024px */
+
+@media (max-width: 1024px){
+    *{
+        padding: 0;
+        margin:0;
+        box-sizing: border-box;
+    }
+    
+    .navbar-brand{
+            img{
+                width: 120px;
+            }
+    }
+    .navbar{
+        padding: 35px;
+        font-family: 'Maitree', serif;
+        font-size: 14px;
+        font-weight: 400;
+        .navbar-nav{
+            margin-left: 60px;
+                .nav-item{
+                    padding-right: 15px;
+                }
+        }
+        .rrss{
+            font-size: 15px;
+            color: $texto-color;
+            letter-spacing: 4px;
+                i{
+                    color: $color-rrss;
+                }
+            }
+    }
+    
+    #introslide{
+        padding-left: 100px;
+            h1{
+                font: $titulo-grande;
+                color: $titulo-color;
+                font-weight: 200;
+                padding: 100px 60px 30px 0;
+                letter-spacing: 2px;
+            }
+            p{
+                width: 80%;
+                font: $texto-normal;
+                color: $texto-color;
+                font-weight: 300;
+                padding-left: 0;
+            }
+            #margenport{
+                margin-bottom: 180px;
+            }
+    }
+    .slide{
+        background-color: $fondo-gris;
+        margin-top: 100px;
+        padding-bottom: 100px;
+            .carrusel{
+                padding-left: 00px;
+                    .carousel-inner{
+                        width: 100%;
+                        height: 500px;
+                    }
+            }
+            .estudio{
+                width: 80%;
+                padding-left: 100px;
+                    p{
+                        font: $texto-grande;
+                        font-size: 20px;
+                        color: #212529;
+                        font-weight: 300;
+                        padding-bottom: 70px;
+                    }
+                    h2{
+                        font: $titulo-mediano;
+                        color: $titulo-color;
+                        font-weight: 300;
+                        letter-spacing: 1px;
+                        padding-bottom: 100px;
+                    }
+        }
+    }
+    #portfolio{
+        padding-left: 100px;
+        margin-top: -100px;
+        .trabajos{
+            margin-bottom: 80px;
+            padding: 0;
+            p{
+                font:$detalle-portfolio;
+            }
+            h3{
+                font:$titulo-detalle;
+                color: $titulo-color;
+                font-weight: 300;
+            }
+            .img#img1{
+                height: 400px;
+                background-image: url(../img/webtquilla1-1.jpg);
+                background-size: cover;
+                background-position: center;
+                margin-bottom: 25px;
+            }
+            .img#img2{
+                height: 400px;
+                background-image: url(../img/1.jpg);
+                background-size: cover;
+                background-position: center;
+                margin-bottom: 25px;
+            }
+            .img#img3{
+                height: 400px;
+                background-image: url(../img/Abisal.png);
+                background-size: cover;
+                background-position: center;
+                margin-bottom: 25px;
+            }
+            .img#img4{
+                height: 400px;
+                background-image: url(../img/Iphone_creedence.jpg);
+                background-size: cover;
+                background-position: center;
+                margin-bottom: 25px;
+            }
+            .img#img5{
+                height: 400px;
+                background-image: url(../img/IRA.png);
+                background-size: cover;
+                background-position: center;
+                margin-bottom: 25px;
+            }
+            .img#img6{
+                height: 400px;
+                background-image: url(../img/Noble-alerce-2.png);
+                background-size: cover;
+                background-position: center;
+                margin-bottom: 25px;
+            }
+        }
+    }
+    .introservice{
+        background-color: $fondo-claro;
+        padding: 100px 0 200px 100px;
+            h2{
+                font: $titulo-mediano;
+                color: $titulo-blanco;
+                font-weight: 300;
+            }
+            p{
+                font: $texto-normal;
+                color: $titulo-blanco;
+                width: 80%;
+                padding-top: 25px;
+            }
+    }
+    
+    #intro{
+        margin-top: -90px;
+        padding-left: 100px;
+        padding-bottom: 150px;
+    }
+    .servicios{
+        padding: 0;
+        margin-bottom: 45px;
+        h3{
+            font: $titulo-detalle;
+            font-weight: 300;
+            padding-bottom: 25px;
+        }
+        p{
+            font: $texto-normal;
+            color: $texto-color;
+            width: 80%;
+        }
+    }
+    
+    .diseño-serv,
+    .landing-serv,
+    .packaging-serv,
+    .web-serv {
+        height: 400px;
+        margin-bottom: 25px;
+    }
+    
+    @each $servicios in diseño , landing , packaging , web {
+        .#{$servicios}-serv {
+            background-image: url("../img/servicios/#{$servicios}.jpg");
+            background-size: cover;
+            background-position: center;
+        }
+    }
+    .clientes{
+            #titulologo{
+                margin-left: 100px;
+                background-color: $fondo-gris;
+                padding: 100px;
+                    h2{
+                        font: $titulo-mediano;
+                        color: $texto-color;
+                        font-weight: 300;
+                    }
+                    .logos{
+                        display: flex;
+                        flex-direction: row;
+                        flex-wrap: wrap;
+                            .marcas{
+                                padding-right: 50px;
+                                padding-bottom: 40px;
+                                padding-top: 80px;
+                                    img{
+                                        width: 120px;
+                                    }
+                            }
+                    }
+            }
+    }
+    
+    .footer{
+        margin-left: 100px;
+        background-color: $fondo-oscuro;
+        padding: 100px;
+            h3{
+                font: $titulo-mediano;
+                color: $titulo-blanco;
+                font-weight: 300;
+            }
+            p{
+                font: $texto-normal;
+                color: $titulo-blanco;
+                font-weight: 300;
+                width:60%;
+                padding-top: 30px;
+            }
+            ul{
+                color: $titulo-blanco;
+                font: $texto-normal;
+            }
+    }
+    .all{
+        background-color: $fondo-footer;
+        padding: 45px 100px 25px 100px;
+        display: flex;
+            p{
+                font: $texto-normal;
+                color: $titulo-blanco;
+                font-weight: 300;
+            }
+            .redessociales{
+                font-size: 17px;
+                color: $texto-color;
+                letter-spacing: 8px;
+                text-align: right;
+            }
+                i{
+                    color: $color-rrss-clara;
+                }
+    }
+}
+    
