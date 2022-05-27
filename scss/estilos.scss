@@ -13,6 +13,9 @@
     margin:0;
     box-sizing: border-box;
 }
+.row{
+    margin-right:0px;
+}
 
 .navbar-brand{
         img{
@@ -1104,7 +1107,6 @@
                     }
             }
     }
-    
     .footer{
         margin:0 auto;
         background-color: $fondo-oscuro;
