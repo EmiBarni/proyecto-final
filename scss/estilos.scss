@@ -378,10 +378,10 @@
     }
     
     #introslide{
-        padding-left: 35px;
+        padding-left: 10px;
             h1{
                 font: $titulo-grande;
-                font-size: 38px;
+                font-size: 28px;
                 color: $titulo-color;
                 font-weight: 200;
                 padding: 50px 100px 30px 0;
@@ -919,13 +919,14 @@
     }
     
     #introslide{
-        padding-left: 100px;
+        padding-left: 50px;
             h1{
                 font: $titulo-grande;
+                font-size: 50px;
                 color: $titulo-color;
                 font-weight: 200;
-                padding: 100px 60px 30px 0;
-                letter-spacing: 2px;
+                padding: 50px 60px 30px 0;
+                letter-spacing: 1px;
             }
             p{
                 width: 80%;
@@ -950,11 +951,11 @@
                     }
             }
             .estudio{
-                width: 80%;
-                padding-left: 100px;
+                width: 90%;
+                padding-left: 50px;
                     p{
                         font: $texto-grande;
-                        font-size: 20px;
+                        font-size: 18px;
                         color: #212529;
                         font-weight: 300;
                         padding-bottom: 70px;
@@ -969,7 +970,7 @@
         }
     }
     #portfolio{
-        padding-left: 100px;
+        padding-left: 30px;
         margin-top: -100px;
         .trabajos{
             margin-bottom: 80px;
@@ -1028,7 +1029,7 @@
     }
     .introservice{
         background-color: $fondo-claro;
-        padding: 100px 0 200px 100px;
+        padding: 100px 0 200px 50px;
             h2{
                 font: $titulo-mediano;
                 color: $titulo-blanco;
@@ -1044,8 +1045,8 @@
     
     #intro{
         margin-top: -90px;
-        padding-left: 100px;
-        padding-bottom: 150px;
+        padding-left: 30px;
+        padding-bottom: 50px;
     }
     .servicios{
         padding: 0;
@@ -1079,9 +1080,9 @@
     }
     .clientes{
             #titulologo{
-                margin-left: 100px;
+                margin: 0 auto;
                 background-color: $fondo-gris;
-                padding: 100px;
+                padding: 50px;
                     h2{
                         font: $titulo-mediano;
                         color: $texto-color;
@@ -1091,12 +1092,13 @@
                         display: flex;
                         flex-direction: row;
                         flex-wrap: wrap;
+                        align-content: center;
                             .marcas{
-                                padding-right: 50px;
+                                padding-right: 40px;
                                 padding-bottom: 40px;
                                 padding-top: 80px;
                                     img{
-                                        width: 120px;
+                                        width: 80px;
                                     }
                             }
                     }
@@ -1104,9 +1106,9 @@
     }
     
     .footer{
-        margin-left: 100px;
+        margin:0 auto;
         background-color: $fondo-oscuro;
-        padding: 100px;
+        padding: 80px 50px 80px 50px;
             h3{
                 font: $titulo-mediano;
                 color: $titulo-blanco;
@@ -1116,7 +1118,7 @@
                 font: $texto-normal;
                 color: $titulo-blanco;
                 font-weight: 300;
-                width:60%;
+                width:100%;
                 padding-top: 30px;
             }
             ul{
@@ -1130,10 +1132,12 @@
         display: flex;
             p{
                 font: $texto-normal;
+                font-size: 12px;
                 color: $titulo-blanco;
                 font-weight: 300;
             }
             .redessociales{
+                display: none;
                 font-size: 17px;
                 color: $texto-color;
                 letter-spacing: 8px;
@@ -1143,5 +1147,11 @@
                     color: $color-rrss-clara;
                 }
     }
+}
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl{
+    padding: 0px;
+    padding-right: 0px;
+    margin: 0px;
 }
     

@@ -394,11 +394,11 @@
   }
 
   #introslide {
-    padding-left: 35px;
+    padding-left: 10px;
   }
   #introslide h1 {
     font: normal 74px/1 "Maitree", serif;
-    font-size: 38px;
+    font-size: 28px;
     color: rgb(0, 0, 0);
     font-weight: 200;
     padding: 50px 100px 30px 0;
@@ -971,14 +971,15 @@
   }
 
   #introslide {
-    padding-left: 100px;
+    padding-left: 50px;
   }
   #introslide h1 {
     font: normal 74px/1 "Maitree", serif;
+    font-size: 50px;
     color: rgb(0, 0, 0);
     font-weight: 200;
-    padding: 100px 60px 30px 0;
-    letter-spacing: 2px;
+    padding: 50px 60px 30px 0;
+    letter-spacing: 1px;
   }
   #introslide p {
     width: 80%;
@@ -1004,12 +1005,12 @@
     height: 500px;
   }
   .slide .estudio {
-    width: 80%;
-    padding-left: 100px;
+    width: 90%;
+    padding-left: 50px;
   }
   .slide .estudio p {
     font: 25px/1.8 "Maitree", serif;
-    font-size: 20px;
+    font-size: 18px;
     color: #212529;
     font-weight: 300;
     padding-bottom: 70px;
@@ -1023,7 +1024,7 @@
   }
 
   #portfolio {
-    padding-left: 100px;
+    padding-left: 30px;
     margin-top: -100px;
   }
   #portfolio .trabajos {
@@ -1083,7 +1084,7 @@
 
   .introservice {
     background-color: #979A9D;
-    padding: 100px 0 200px 100px;
+    padding: 100px 0 200px 50px;
   }
   .introservice h2 {
     font: 40px/1 "Maitree", serif;
@@ -1099,8 +1100,8 @@
 
   #intro {
     margin-top: -90px;
-    padding-left: 100px;
-    padding-bottom: 150px;
+    padding-left: 30px;
+    padding-bottom: 50px;
   }
 
   .servicios {
@@ -1151,9 +1152,9 @@
   }
 
   .clientes #titulologo {
-    margin-left: 100px;
+    margin: 0 auto;
     background-color: #f0f0f0;
-    padding: 100px;
+    padding: 50px;
   }
   .clientes #titulologo h2 {
     font: 40px/1 "Maitree", serif;
@@ -1164,20 +1165,21 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    align-content: center;
   }
   .clientes #titulologo .logos .marcas {
-    padding-right: 50px;
+    padding-right: 40px;
     padding-bottom: 40px;
     padding-top: 80px;
   }
   .clientes #titulologo .logos .marcas img {
-    width: 120px;
+    width: 80px;
   }
 
   .footer {
-    margin-left: 100px;
+    margin: 0 auto;
     background-color: #555657;
-    padding: 100px;
+    padding: 80px 50px 80px 50px;
   }
   .footer h3 {
     font: 40px/1 "Maitree", serif;
@@ -1188,7 +1190,7 @@
     font: 16px/1.7 "Maitree", serif;
     color: white;
     font-weight: 300;
-    width: 60%;
+    width: 100%;
     padding-top: 30px;
   }
   .footer ul {
@@ -1203,10 +1205,12 @@
   }
   .all p {
     font: 16px/1.7 "Maitree", serif;
+    font-size: 12px;
     color: white;
     font-weight: 300;
   }
   .all .redessociales {
+    display: none;
     font-size: 17px;
     color: rgb(112, 112, 112);
     letter-spacing: 8px;
@@ -1215,6 +1219,11 @@
   .all i {
     color: rgb(255, 255, 255);
   }
+}
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+  padding: 0px;
+  padding-right: 0px;
+  margin: 0px;
 }
 
 /*# sourceMappingURL=estilos.css.map */
