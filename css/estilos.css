@@ -1230,4 +1230,44 @@
   margin: 0px;
 }
 
+#estudioservicios {
+  width: 90%;
+  padding-left: 50px;
+}
+#estudioservicios p {
+  font: 25px/1.8 "Maitree", serif;
+  font-size: 16px;
+  color: #212529;
+  font-weight: 300;
+  padding-bottom: 70px;
+  padding-left: 20px;
+  width: 90%;
+}
+#estudioservicios h2 {
+  font: 40px/1 "Maitree", serif;
+  font-size: 35px;
+  color: rgb(0, 0, 0);
+  font-weight: 300;
+  letter-spacing: 1px;
+  padding-bottom: 100px;
+}
+
+#tips {
+  text-align: center;
+  padding-left: 0px;
+  margin-top: 100px;
+  margin-bottom: 110px;
+}
+#tips i {
+  font-size: 30px;
+  text-align: center;
+  padding-bottom: 30px;
+}
+#tips h3 {
+  font: 40px/1 "Maitree", serif;
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
 /*# sourceMappingURL=estilos.css.map */
