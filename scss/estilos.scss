@@ -134,6 +134,7 @@
     padding-left: 190px;
         p{
             font: $texto-grande;
+            font-size: 25px;
             color: #212529;
             font-weight: 300;
             padding-bottom: 70px;
@@ -149,7 +150,6 @@
             padding-bottom: 100px;
         }
 }
-
 #tips{
     text-align: center;
     padding-left: 170px;
@@ -158,12 +158,34 @@
         i{
             font-size: 30px;
             text-align: center;
-            padding-bottom: 50px;
+            padding-bottom: 30px;
         }
         h3{
             font: $titulo-mediano;
             font-size: 28px;
             text-align: center;
+            margin-bottom: 0px;
+            margin-top: 50px;
+        }
+}
+.formulario{
+    padding-left: 190px;
+    width: 50%;
+        input{
+            background-color: #f0f0f0;
+            border: 0px;
+            border-radius: 0px;
+            border-bottom: solid 1px #212529;
+            margin-bottom: 45px;
+            font-family: 'Maitree', serif;
+        }
+        button{
+            background-color: #212529;
+            color: white;
+            border: 0px;
+            padding: 12px 35px 12px 35px;
+            font: $titulo-mediano;
+            font-size: 18px;
         }
 }
 #portfolio{
@@ -886,6 +908,7 @@
     }
 }
 
+
 /* Resolucion 1024px */
 
 @media (max-width: 1024px){
@@ -925,7 +948,7 @@
         padding-left: 50px;
             h1{
                 font: $titulo-grande;
-                font-size: 50px;
+                font-size: 45px;
                 color: $titulo-color;
                 font-weight: 200;
                 padding: 50px 60px 30px 0;
@@ -1149,48 +1172,73 @@
                     color: $color-rrss-clara;
                 }
     }
-}
 
-.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl{
-    padding: 0px;
-    padding-right: 0px;
-    margin: 0px;
-}
-#estudioservicios{
-    width: 90%;
-    padding-left: 50px;
-        p{
-            font: $texto-grande;
-            font-size: 16px;
-            color: #212529;
-            font-weight: 300;
-            padding-bottom: 70px;
-            padding-left: 20px;
-            width: 90%;
-        }
-        h2{
-            font: $titulo-mediano;
-            font-size: 35px;
-            color: $titulo-color;
-            font-weight: 300;
-            letter-spacing: 1px;
-            padding-bottom: 100px;
-        }
-}
-#tips{
-    text-align: center;
-    padding-left: 0px;
-    margin-top: 100px;
-    margin-bottom: 110px;
-        i{
-            font-size: 30px;
-            text-align: center;
-            padding-bottom: 30px;
-        }
-        h3{
-            font: $titulo-mediano;
-            font-size: 28px;
-            text-align: center;
-            margin-bottom: 80px;
-        }
+    .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl{
+        padding: 0px;
+        padding-right: 0px;
+        margin: 0px;
+    }
+    #estudioservicios{
+        width: 90%;
+        padding-left: 50px;
+            p{
+                font: $texto-grande;
+                font-size: 16px;
+                color: #212529;
+                font-weight: 300;
+                padding-bottom: 70px;
+                padding-left: 50px;
+                width: 90%;
+            }
+            h2{
+                font: $titulo-mediano;
+                font-size: 35px;
+                color: $titulo-color;
+                font-weight: 300;
+                letter-spacing: 1px;
+                padding-bottom: 100px;
+            }
+    }
+    #tips{
+        text-align: center;
+        padding-left: 0px;
+        margin-top: 100px;
+        margin-bottom: 30px;
+            i{
+                font-size: 30px;
+                text-align: center;
+                padding-top: 100px;
+                padding-bottom: 10px;
+            }
+            h3{
+                font: $titulo-mediano;
+                font-size: 28px;
+                text-align: center;
+                margin-bottom: 0px;
+                margin-top: 50px;
+            }
+    }
+    .formulario{
+        padding-left: 50px;
+        width: 90%;
+            input{
+                background-color: #f0f0f0;
+                border: 0px;
+                border-radius: 0px;
+                border-bottom: solid 1px #212529;
+                margin-bottom: 45px;
+                font-family: 'Maitree', serif;
+            }
+            button{
+                background-color: #212529;
+                color: white;
+                border: 0px;
+                padding: 12px 35px 12px 35px;
+                font: $titulo-mediano;
+                font-size: 18px;
+            }
+    }
+    .navbar-toggler{
+        border: 0px;
+    }
 }
